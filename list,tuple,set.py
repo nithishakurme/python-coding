@@ -1,0 +1,9 @@
+a=[2,3,4]
+b=(2,3,4)
+c={2,3,4}
+a.append(20)
+print(a)
+b=b+(5,)
+print(b)
+c.add(9)
+print(c)
