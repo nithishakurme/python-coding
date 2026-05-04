@@ -1,0 +1,9 @@
+def day7(a):
+ if a==1:
+     return 1
+ else:
+     return a*day7(a-1)
+     
+a=int(input("enter any num:"))
+res=day7(a)
+print("factorial is",res)
